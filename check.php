@@ -2,8 +2,8 @@
 
 $error = '';
 $success = '';
-
-$connection = mysqli_connect("localhost", "root", "", "project5"); // connect to mysql
+	
+$connection = mysqli_connect("remotemysql.com", "FhYN7E3LgC", "tDjfCwj1bE", "FhYN7E3LgC"); // connect to mysql
 if(!$connection) die("Error while connecting to DB"); // if error, show it
 
 if(!isset($_GET['token'])) { $error = "Invalid token."; goto ext; } // if didn't receive token then show error

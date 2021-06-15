@@ -3,7 +3,7 @@
 $error = '';
 $success = '';
 
-$connection = mysqli_connect("localhost", "root", "", "project5"); // connect to db
+$connection = mysqli_connect("remotemysql.com", "FhYN7E3LgC", "tDjfCwj1bE", "FhYN7E3LgC"); // connect to db
 if(!$connection) die("Error while connecting to DB"); // if error while connecting then show it
 
 // ON CLICK NEXT

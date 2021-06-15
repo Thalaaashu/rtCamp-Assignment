@@ -2,7 +2,7 @@
 
 while(true)
 {
-	$connection = mysqli_connect("localhost", "root", "", "project5"); // connect to the db
+	$connection = mysqli_connect("remotemysql.com", "FhYN7E3LgC", "tDjfCwj1bE", "FhYN7E3LgC"); // connect to the db
 	if(!$connection) die("Error while connecting to DB"); // if error while connecting then show it
 
 	$html = file_get_contents("https://c.xkcd.com/random/comic"); // select a random comic

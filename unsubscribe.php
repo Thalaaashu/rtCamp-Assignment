@@ -3,7 +3,7 @@
 $error = '';
 $success = '';
 
-$connection = mysqli_connect("localhost", "root", "", "project5"); // connect to the db
+$connection = mysqli_connect("remotemysql.com", "FhYN7E3LgC", "tDjfCwj1bE", "FhYN7E3LgC"); // connect to the db
 if(!$connection) die("Error while connecting to DB"); // if error then show it
 
 if(!isset($_GET['token'])) { $error = "Invalid token."; goto ext; } // if script doesn't receive a token then abort it
