@@ -1,5 +1,3 @@
-CSS FILES:
-/css/style.css
+# Assignment for rtCamp
 
-JS FILES:
-/js/script.js (empty)
+- Database used ; MySql 
