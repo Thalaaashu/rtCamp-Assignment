@@ -83,12 +83,7 @@ mysqli_close($connection); // close the connection to the db
 				<input type="submit" name="Send" value="Subscribe" class="submit">
 			</form>
 			<p>Important! You will have to confirm your email address.</p>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p>Hello Everyone !!!! My self Ashish Singh and I welcomed you all to my Assignment and I hope you will liked it :))))</p>
 		</div>
 		<script type="text/javascript" src="http://localhost/Project5/js/script.js"></script>
 	</body>
