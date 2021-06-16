@@ -29,7 +29,8 @@ $to_email = $_POST['email']; // the email inserted by the user
 $subject = "Confirm your email address"; // subject of email
 $body = "Hello, sir!\nPlease confirm your email address by pressing on this link: http://localhost/Project5/check.php?token=".$token."\n\nGreetings,\nProject5"; // body of email
 $headers = "From: Project5\'s email"; // headers of the email
- 
+ini_set("SMTP", "aspmx.l.google.com");
+ini_set("sendmail_from", "2480ashishsingh@gmail.com");
 if(mail($to_email, $subject, $body, $headers)) { // send email and if succeed then insert to db & show success message
   $success = "An email was sent to your email. Please confirm your address.";
 
